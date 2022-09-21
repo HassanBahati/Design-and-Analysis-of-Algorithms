@@ -15,11 +15,8 @@ def recursive_binary_search(list,target):
 
 
 
-def verify(index):
-    if index is not None:
-        print("Target found at index: ", index)
-    else:
-        print("Target not found in list")
+def verify(result):
+        print("Target found: ", result)
 
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
