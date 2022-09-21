@@ -10,3 +10,5 @@
 
 # Input - sorted list 
 # Output - position of target value, or value to show it doesnt exist
+
+# time complexity - O(log n)
