@@ -11,4 +11,5 @@
 # Input - sorted list 
 # Output - position of target value, or value to show it doesnt exist
 
-# time complexity - O(log n)
+# time complexity - O(log n) because the size is split by half everyother time
+# best case is O(1) when the value is at middle position
