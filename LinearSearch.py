@@ -9,3 +9,5 @@
 
 # Input - set of sorted/unsorted values 
 # Output - value that matches one being looked for 
+
+# time complexity - O(n)
