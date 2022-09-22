@@ -115,6 +115,7 @@ class LinkedList:
 # >>> N1.next_node
 # <Node data: 20>
 
+
 # python3 -i linked_list.py 
 # >>> l = LinkedList()
 # >>> N1=Node(10)
@@ -137,3 +138,15 @@ class LinkedList:
 # >>> l.add(3)
 # >>> l
 # [Head: 3]-> [2]-> [Tail: 1]
+
+
+# >>> l=LinkedList()
+# >>> l.add(19)
+# >>> l.add(2)
+# >>> l.add(45)
+# >>> l.add(15)
+# >>> n=l.search(45)
+# >>> n
+# <Node data: 45>
+# >>> l
+# [Head: 15]-> [45]-> [2]-> [Tail: 19]
