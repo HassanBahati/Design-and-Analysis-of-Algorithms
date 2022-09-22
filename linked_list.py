@@ -11,6 +11,10 @@
 
 # List traversal - moving from one node to another 
 
+# Prepend - when data is added to the head of the linked list 
+# Append - when data is added to the tail of the list  
+# Insert - when data can be added to any point in the list 
+
 
 # Singly linked list 
 class Node:
@@ -51,3 +55,83 @@ class LinkedList:
             current = current.next_node
 
         return count
+
+    def add(self, data):
+        """
+        Adds a new node containing data at head of the list 
+        Takes O(1) time 
+        """
+        new_node = Node(data)
+        new_node.next_node = self.head
+
+        self.head = new_node
+
+
+    def search(self,key):
+        """
+        Search for the first node containing data that matches the key
+        """
+        current = self.head
+
+        while current:
+            if current.data == key:
+                return current
+            else:
+                current = current.next_node
+            return None
+
+
+
+    def __repr__(self):
+        """
+        Returns a string representation of the list 
+        Takes O(n) time 
+        """
+
+        nodes = []
+        current = self.head
+
+        while current:
+            if current is self.head:
+                nodes.append("[Head: %s]" % current.data)
+            elif current.next_node is None:
+                nodes.append("[Tail: %s]" % current.data)
+            else:
+                nodes.append("[%s]" % current.data)
+
+            current = current.next_node
+        return '-> '.join(nodes)
+
+
+
+
+# python3 -i linked_list.py 
+# >>> N1=Node(10)
+# >>> N1
+# >>> N2=Node(20)
+# >>> N1.next_node=N2
+# >>> N1.next_node
+# <Node data: 20>
+
+# python3 -i linked_list.py 
+# >>> l = LinkedList()
+# >>> N1=Node(10)
+# >>> l.head=N1
+# >>> l.size()
+
+# >>> l=LinkedList()
+# >>> l.add(1)
+# >>> l.size()
+# 1
+# >>> l.add(2)
+# >>> l.add(3)
+# >>> l.size()
+# 3
+# >>> 
+
+# >>> l=LinkedList()
+# >>> l.add(1)
+# >>> l.add(2)
+# >>> l.add(3)
+# >>> l
+# [Head: 3]-> [2]-> [Tail: 1]
