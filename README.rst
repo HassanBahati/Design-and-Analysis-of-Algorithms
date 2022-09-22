@@ -6,3 +6,5 @@ Data Structure - A data storage format. It is a collection of values and the for
  - Insert values at any point into the structure
  - Delete values in the structure
  
+ Each data structure solves a particular problem
+ 
