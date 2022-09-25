@@ -17,9 +17,6 @@
 
 
 # Singly linked list 
-from turtle import position
-
-
 class Node:
     """
     An object for storing a single node of a linked list 
