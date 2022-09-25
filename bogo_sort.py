@@ -7,8 +7,7 @@ bad algorithm
 
 import random 
 import sys
-from load import load_numbers
 
-numbers = load_numbers(sys.argv[1])
+numbers = [5,8,1,4,7]
 
 print(numbers)
