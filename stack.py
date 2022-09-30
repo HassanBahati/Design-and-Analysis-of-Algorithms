@@ -1,13 +1,14 @@
 from collections import deque
-myStack = deque()
+stack = deque()
 
-myStack.append('a')
-myStack.append('b')
-myStack.append('c')
+stack.append('7')
+stack.append('6')
+stack.append('5')
 
-print(myStack)
+print(stack)
 
 # deque(['a', 'b', 'c'])
 
-myStack.pop()
-print(myStack)
+stack.pop()
+
+print(stack)

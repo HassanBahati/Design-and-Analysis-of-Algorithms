@@ -1,12 +1,14 @@
 list = ['a', ['b', ['c', ['d']], 'e'], 'f'] 
 
 # iterate over a list with nested values 
-def nested_loops():
+def nested_loops(list):
     for x in list:
         for y in x:
             for z in y:
                 for l in z:
                     print(l)
+
+
 
 #recursive method
 def iterate_recursively(list):
@@ -17,3 +19,5 @@ def iterate_recursively(list):
             iterate_recursively(x)
 
 iterate_recursively(list)
+# nested_loops(list)
+
