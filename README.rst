@@ -16,3 +16,8 @@ Data Structure - A data storage format. It is a collection of values and the for
 - implement the solution and test it using example inputs. Fix bugs, if any.
 - Analze the algorithm's complexity and identify inefficiencies, if any.
 - Apply the right technique to cover the inefficiency. Repeat steps 3 to 6.
+
+
+Edge cases
+1. the number query occurs somewhere in the middle of the list 
+2. 
