@@ -9,7 +9,7 @@ Data Structure - A data storage format. It is a collection of values and the for
  Each data structure solves a particular problem
  
 
-## how to solve problems:
+# how to solve problems:
 - State the problem clearlly. Identify the input and output formats.
 - Come up with some example inputs and outputs. Try to cover all edges cases.
 - Come up with a correct solution for the problem. State it in plain English.
