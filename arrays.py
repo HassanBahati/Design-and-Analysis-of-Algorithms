@@ -23,3 +23,6 @@ print(array1)
 array1.remove(80)
 for x in array1:
     print(x)
+
+# search through array 
+print(array1.index(50))
