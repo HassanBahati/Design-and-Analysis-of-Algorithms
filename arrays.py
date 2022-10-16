@@ -12,3 +12,10 @@ array1 = array('i', [10,20,30,40,50])
 for x in array1:
     print(x)
 
+#access array element - this is done by index
+print(array1[2])
+
+# insertion into array 
+array1.insert(1,80)
+print(array1)
+
