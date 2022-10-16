@@ -9,10 +9,15 @@ Data Structure - A data storage format. It is a collection of values and the for
  Each data structure solves a particular problem
  
 
-## how to solve problems:
+# how to solve problems:
 - State the problem clearlly. Identify the input and output formats.
 - Come up with some example inputs and outputs. Try to cover all edges cases.
 - Come up with a correct solution for the problem. State it in plain English.
 - implement the solution and test it using example inputs. Fix bugs, if any.
 - Analze the algorithm's complexity and identify inefficiencies, if any.
 - Apply the right technique to cover the inefficiency. Repeat steps 3 to 6.
+
+
+Edge cases
+1. the number query occurs somewhere in the middle of the list 
+2. 
