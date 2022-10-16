@@ -19,3 +19,7 @@ print(array1[2])
 array1.insert(1,80)
 print(array1)
 
+# delete from array 
+array1.remove(80)
+for x in array1:
+    print(x)
