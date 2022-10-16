@@ -26,3 +26,8 @@ for x in array1:
 
 # search through array 
 print(array1.index(50))
+
+#update array element
+array1[2] = 70
+for x in array1:
+    print(x)
